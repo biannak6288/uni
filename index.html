@@ -2,65 +2,52 @@
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>Bootstrap Template</title>
 
-    <title>Full Width Pics - Start Bootstrap Template</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-    <!-- Custom CSS -->
-    <link href="css/full-width-pics.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+   <nav class="navbar navbar-inverse navbar-static-top" data-spy="affix" id="nav">
+    
+        <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">UNI</a>
-                <p>Together We Stand</p>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Information</a>
-                    </li>
-                    <li>
-                        <a href="#">Gallery</a>
-                    </li>
-                     <li>
-                        <a href="#">Guide</a>
-                    </li>
-                     <li>
-                        <a href="#">Contact Us</a>
-                    </li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#quotes">Inspiration</a></li>
+                    <li><a href="#guide">Guide</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
-    <div class="Information">
+
+    <div id="header">
+        <img src="images/image-9.jpg" width=100%>
+    </div>
+
+    <div class="welcome">
+        <h2>UNI</h2> 
+    </div>
+        <div class="info">
         <ul>
             <li>Uni is a non-profit organization which symbolizes those who are not able to stand up in society: socially and economically. We intend to assist those who don’t have many opportunities in terms of education, health and shelter.</li>
             <br>
@@ -68,8 +55,8 @@
             <br>
             <li>Afraid your money won’t go towards the right cause? After you donate, we send you a picture with information of the family you are saving and giving a life long opportunity.</li>  
         </ul>
-        
-    <div class="container">
+        </div>
+         <div class="container">
   <h2>Carousel Example</h2>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -85,7 +72,7 @@
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner">
+    <div class="quotes">
       <div class="item active">
         <img src="image-1.jpg" alt="image-1" style="width:100%;">
       </div>
@@ -116,9 +103,9 @@
       
       <div class="item">
         <img src="image-8jpg" alt="image-8" style="width:100%;">
-      </div
-  
-  </div>
-    </body>
+      </div>
 
-    
+</body>
+
+</html>
+
