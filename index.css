@@ -48,8 +48,8 @@ h3 {
 }
 
 p {
-  text-align: center;
-  padding: 15px;
+  font-family:'Londrina Shadow', cursive;
+  font-size: 15px;
 }
 
 #header {
