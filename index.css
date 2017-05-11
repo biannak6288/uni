@@ -1,6 +1,6 @@
 h1 {
   font-family: 'Rubik Mono One',sans-serif ;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 75px;
   text-align: center;
 }
@@ -28,9 +28,8 @@ h3 {
 }
 
 #myNavbar {
-  background-color: orange;
   font-size: 25px;
-  font-family:'Rubik Mono One', sans-serif;;
+  font-family:'Rubik Mono One', sans-serif;
   
 }
 
@@ -64,4 +63,17 @@ p {
   color: white;
   text-align: center;
   font-size: 25px;
+}
+
+#splash h1,
+#splash h2,
+#splash h3 {
+    color: #c4d7f1;
+    /*off-white*/
+}
+
+#splash {
+    background: linear-gradient( rgb(255,127,80), rgb(255,99,71)), url('images/image-9.jpg') center no-repeat fixed;
+    background-size: cover;
+    text-align: center;
 }
