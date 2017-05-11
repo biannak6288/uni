@@ -31,6 +31,14 @@ h3 {
     padding: 20px;
     background: orange;
 }
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container {
+    padding-top: 125px;
+}
 
 p{
     text-align: center;
