@@ -1,13 +1,15 @@
 h1 {
   font-family: 'Rubik Mono One',sans-serif ;
   font-weight: 600;
-  font-size: 75px;
+  font-size: 50px;
   text-align: center;
+  padding: 5px;
+  color: black;
 }
 
 h2 {
   font-family: 'Londrina Shadow', cursive;
-  font-size: 150px;
+  font-size: 200px;
   color: white;
   text-align: center;
 }
@@ -22,7 +24,7 @@ h3 {
 h4{
   font-family:'Rubik Mono One', sans-serif;
   font-size: 20px;
-  color: orange;
+  color: black;
   
 }
 
@@ -30,9 +32,10 @@ h5 {
   font-size: 25px;
   text-align: center;
   font-family:'Rubik Mono One', sans-serif;
+  color: black;
 }
 .navbar-brand {
-  padding: 0px;
+
 }
 
 .navbar {
@@ -67,7 +70,7 @@ p {
 }
 
 #header {
-  background: yellow no-repeat center;
+  background: orange no-repeat center;
   display: table;
   width: 100%;
   height: 500px;
@@ -93,9 +96,24 @@ p {
     text-align: center;
 }
 
-li{
+.info{
   font-family: 'Londrina Shadow', cursive;
   font-size: 25px;
+  color: black;
+  background-color: orange;
+  padding: 20px;
+}
+
+.guide,.col-sm-3{
+  background-color: orange;
+  padding: 20px;
+}
+
+#contact,.jumbotron{
+  font-family:'Rubik Mono One', sans-serif;
+  text-align: center;
+  color: black;
+  
 }
 
 
