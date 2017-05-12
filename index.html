@@ -18,26 +18,38 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-static-top" data-spy="affix" id="nav">
-
-        <div class="container-fluid">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#info">Information</a></li>
-                    <li><a href="#quotes">Gallery</a></li>
-                    <li><a href="#guide">Guide</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#Home">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#About">Information</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#myCarousel">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#myCarousel">Guide</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#Testimonial">Contact</a>
+                    </li>
                 </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
     </nav>
     <br>
     <br>
@@ -144,7 +156,7 @@
     <div class ="guide">
         <h1>Guide</h1>
         <h5>Not sure where to start? Here is the perfect guide for you...</h5>
-<div class="col-sm-">
+<div class="col-sm-3">
                 <h4><span class="glyphicon glyphicon-book"></span> Research</h4>
  <p>Poverty is related in many ways to reproductive rights, workers rights and environmental justice. By learning about it, you can determine what to 
     spend your time and efforts to help the poor get the skills and ability they need so they can help themselves.</p>
@@ -167,7 +179,8 @@
 </div>
 <br>
 <br>
-     <div id="contact">
+     <div class="contact-info">
+         <h1>Contact Us</h1>
     <div class='jumbotron'>
       <strong>Contact Information:</strong>
       <br>
