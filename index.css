@@ -38,13 +38,14 @@ h5 {
 
 }
 
-.navbar {
+.navbar-header {
   margin-bottom: 0px;
+  font-size: 25px;
+  font-family:'Rubik Mono One', sans-serif;
 }
 
 #myNavbar {
-  font-size: 25px;
-  font-family:'Rubik Mono One', sans-serif;
+  
   
 }
 
@@ -116,4 +117,25 @@ p {
   
 }
 
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 70px;
+
+    }
+    .nav {
+        size: 100%;
+    }
+}
 
