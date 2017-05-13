@@ -66,8 +66,7 @@ p {
   font-family:'Londrina Shadow', cursive;
   font-size: 20px;
   color: orange;
-  padding: 20px;
-  background-color: black;
+ 
 }
 
 #header {
@@ -105,15 +104,21 @@ p {
   padding: 20px;
 }
 
-.guide,.col-sm-3{
-  background-color: orange;
-  padding: 20px;
-}
 
-#contact,.jumbotron{
-  font-family:'Rubik Mono One', sans-serif;
-  text-align: center;
-  color: black;
+
+
+.contact {
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../images/image-9.jpg'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding:10px;
+    height: 180px;
+}
+.contact p {
+    font-size: 14px;
+    text-align: center;
+    color: orange;
   
 }
 
