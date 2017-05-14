@@ -23,7 +23,7 @@ h3 {
 
 h4{
   font-family:'Rubik Mono One', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   color: black;
   
 }
@@ -52,8 +52,8 @@ h5 {
 
 p {
   font-family:'Londrina Shadow', cursive;
-  font-size: 20px;
-  color: orange;
+  font-size: 15px;
+  color: black;
  
 }
 
@@ -128,7 +128,7 @@ p {
     height: 650px;
   }
   .carousel-caption {
-    color: white;
+    color: black;
     center: 35%;
   }
 
@@ -180,7 +180,7 @@ p {
     height: 1270px;
   }
   .carousel-caption {
-    color: white;
+    color: black;
     center: 32%;
   } 
 }
@@ -201,8 +201,14 @@ p {
 }
 
 .carousel-caption {
-  color: orange;
+  color: black;
   top: 30%;
+}
+
+.carousel-caption #title {
+  color: yellow;
+  font-family:'Rubik Mono One', sans-serif ;
+  font-size: 25px;
 }
 
 
