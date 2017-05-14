@@ -34,21 +34,10 @@ h5 {
   font-family:'Rubik Mono One', sans-serif;
   color: black;
 }
-.navbar-brand {
 
-}
 
-.navbar {
-  margin-bottom: 0px;
-}
 
-#myNavbar {
-  font-size: 25px;
-  font-family:'Rubik Mono One', sans-serif;
-  
-}
-
-.welcome {
+.home {
   padding: 20px;
   background: orange;
 }
@@ -65,8 +54,7 @@ p {
   font-family:'Londrina Shadow', cursive;
   font-size: 20px;
   color: orange;
-  padding: 20px;
-  background-color: black;
+ 
 }
 
 #header {
@@ -104,10 +92,7 @@ p {
   padding: 20px;
 }
 
-.guide,.col-sm-3{
-  background-color: orange;
-  padding: 20px;
-}
+
 
 
 .contact {
@@ -121,7 +106,7 @@ p {
 .contact p {
     font-size: 14px;
     text-align: center;
-    color: orane;
+    color: orange;
   
 }
 /* small*/
@@ -204,8 +189,10 @@ p {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background:  url('images/image-9.jpg') no-repeat bottom;
-    background-size: cover;}
+    background:  url('images/image-9.jpg') no-repeat center;
+    background-size: cover;
+  
+}
 
 
 .carousel-inner .item img {
@@ -217,4 +204,5 @@ p {
   color: orange;
   top: 30%;
 }
+
 
