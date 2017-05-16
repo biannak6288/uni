@@ -163,6 +163,7 @@ h5 {
   }
     .carousel-inner .item img {
     height: 1270px;
+    opacity:0.5;
   }
   .carousel-caption {
     color: black;
@@ -191,9 +192,11 @@ h5 {
 }
 
 .carousel-caption #title {
+
   color: black;
+
   font-family:'Rubik Mono One', sans-serif ;
-  font-size: 25px;
+  font-size: 20px;
 }
 
  h4{
@@ -232,5 +235,7 @@ font-size: 20px;
         font-size: 30px;
     }
 }
-
-
+ .item{
+   background-color: white;
+   
+ }
