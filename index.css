@@ -68,9 +68,10 @@ h5 {
 }
 
 #splash {
-    background: linear-gradient( rgb(255,127,80), rgb(255,99,71)), url('images/image-9.jpg') center no-repeat fixed;
-    background-size: cover;
+    background: linear-gradient( rgb(255,127,80), rgb(255,99,71));
+    background: cover;
     text-align: center;
+    margin-right:45px;
 }
 
 .info{
@@ -206,6 +207,7 @@ h5 {
     color: orange;
     font-family:'Rubik Mono One', sans-serif;
     font-size: 20px;
+    text-align: center;
 }
 .row, .row1, .row2, .row3{
 font-family:'Londrina Shadow', cursive ;
@@ -251,19 +253,23 @@ font-size: 20px;
    
  }
  #guide1 {
-    font-family: 'Rubik Mono One';
+    font-family: 'Londrina Shadow', cursive;
     color: black;
+    font-size:25px;
 }
 #vtitle {
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Londrina Shadow', cursive;
 }
 
 #rtitle {
     padding-top: 10px;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Londrina Shadow', cursive;
 }
-
+.carousel-inner .item img {
+    height: 1270px;
+    opacity:0.5;
+  }
