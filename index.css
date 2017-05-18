@@ -169,6 +169,9 @@ h5 {
     color: black;
     center: 32%;
   } 
+  #guide1{
+    font-size: 24;
+  }
 }
 
 .landing-section {
@@ -233,6 +236,9 @@ font-size: 20px;
     h4 {
         font-size: 30px;
     }
+    #guide1{
+      font-size: 25;
+    }
 }
  .item{
    background-color: white;
@@ -243,3 +249,19 @@ font-size: 20px;
    border: white;
    
  }
+ #guide1 {
+    font-family: 'Rubik Mono One';
+    color: black;
+}
+#vtitle {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Londrina Shadow', cursive;
+}
+
+#rtitle {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Londrina Shadow', cursive;
+}
